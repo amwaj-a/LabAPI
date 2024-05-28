@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+  }
+  nav {
+    margin-bottom: 10px;
+    background-color: rgb(123, 117, 108);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+  }
+  div{
+    height: max-content;
+box-shadow: 1px 1px 1px black;
+    text-align: center;
+    border: 1px solid black;
+
+  }
+  section{
+    /* overflow: hidden; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;    
+    
+  }
