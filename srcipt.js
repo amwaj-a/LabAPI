@@ -1,13 +1,13 @@
 let url = "https://coffee.alexflipnote.dev/random.json";
 let urlLab2 = "https://rickandmortyapi.com/api/character";
-// fetch(url)
-//   .then((res) => res.json())
-//   .then((e) => {
-//     // console.log(e.file);
-//     // document.querySelector("img").src = e.file;
+fetch(url)
+  .then((res) => res.json())
+  .then((e) => {
+    // console.log(e.file);
+    // document.querySelector("img").src = e.file;
 
-//     setInterval((document.getElementById("coffee").src = e.file), 2000);
-//   });
+    setInterval((document.getElementById("coffee").src = e.file), 2000);
+  });
 
 async function cartoon() {
   let dataAll = await fetch(urlLab2);
